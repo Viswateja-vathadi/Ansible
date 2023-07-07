@@ -1,0 +1,27 @@
+Git init:
+
+The git init command is used to create a new blank repository. It is used to make an existing project as a Git project. 
+Several Git commands run inside the repository, but init command can be run outside of the repository. 
+The git init command creates a .git subdirectory in the current working directory.
+
+Git status:
+
+git-status - Show the working tree status & staging area,  It shows the tracked, untracked, staged, and unstaged files and changes,
+It helps you see any difference between the current tree and the HEAD pointer1. It does not show any commit records or information2. 
+It is mostly used between Git Add and Git commit command
+
+Git add:
+
+The git add command adds new or changed files in your working directory to the Git staging area.
+
+Git commit:
+
+The git commit command adds new or changed files in your Git staging area to the Local repository.
+git commit -m "descriptive message": Records file snapshots permanently in version history.
+
+Git push:
+
+Uploads all local branch commits to the remote.
+
+Git checkout -b 
+
