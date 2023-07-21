@@ -1,7 +1,5 @@
 ---
   - name: monitor cpu utilization
-    hosts: all
-    become: yes
     tasks:
       - name: get CPU usage
         shell: "top -b -n 1"
