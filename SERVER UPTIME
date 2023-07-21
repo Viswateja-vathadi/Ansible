@@ -1,4 +1,3 @@
-$ cat playbooks/firstplaybook.yml
 ---
 - name: Get server uptime
 hosts: all
